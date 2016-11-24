@@ -1,5 +1,7 @@
 package Hashes;
 
+
+//http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/6-b27/java/util/HashMap.java
 import java.io.Serializable;
 import java.util.AbstractMap;
 import java.util.Map;

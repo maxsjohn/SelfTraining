@@ -165,7 +165,7 @@ public class HashMap<K,V> extends AbstractMap<K,V> implements Map<K,V> ,Cloneabl
 			}
 		}
 		modCount++ ;
-		addEntry(hash , key , value , 0);
+		addEntry(hash , key , value , i);
 		return null;
 		
 	}
@@ -744,6 +744,43 @@ public class HashMap<K,V> extends AbstractMap<K,V> implements Map<K,V> ,Cloneabl
     
     float loadFactry(){
     	return loadFactor;
+    }
+    
+    void printHashTable()
+    {
+    	if(table.length == 0)
+    		System.out.println("Empty Hash Table");
+    	
+		String STARTER_STR= "-->" ;   	
+    	
+    	int i= 0 ;
+    	while( i < table.length)
+    	{
+
+    		Entry<K, V> e =  table[i];
+    		
+    		if(e == null)
+    		{
+        		System.out.print("["+i+"]"+STARTER_STR+"    NULL   ");
+        		i++;
+        		System.out.print("\n");         		
+        		continue;
+    			
+    		}
+
+    		System.out.print("["+i+"]"+STARTER_STR+e.key.toString());
+    		Entry<K, V> next =  e.next ; 
+    		while(next != null)
+    		{    			
+    			System.out.print(STARTER_STR);
+        		System.out.println(next.key.toString());
+        		next = next.next;
+    		}
+    		
+    		System.out.print("\n"); 
+    		i++;
+    	}
+
     }
 
 }	

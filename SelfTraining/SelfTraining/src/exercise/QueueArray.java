@@ -19,58 +19,6 @@ package practise;
  */
 public class QueueArray<Item> implements Queue<Item>
 {
-
-    /**
-     * @param args
-     */
-    public static void main(String[] args)
-    {
-        // TODO Auto-generated method stub
-        QueueArray<String> queue = new QueueArray<String>();
-
-        for (int i = 0; i < 4; i++)
-        {
-            queue.enque(Double.toString(Math.random()));
-        }
-
-        System.out.println(queue);
-
-        for (int i = 0; i < 4; i++)
-        {
-            queue.deque();
-        }
-        System.out.println(queue);
-
-        for (int i = 0; i < 4; i++)
-        {
-            queue.enque(Integer.toString(i));
-        }
-
-        System.out.println(queue);
-        queue.enque(Integer.toString(10));
-        System.out.println(queue);
-
-        for (int i = 0; i < 1000; i++)
-        {
-            queue.enque(Double.toString(i));
-
-        }
-
-        for (int i = 0; i < 1000; i++)
-        {
-            if (i % 125 == 0)
-            {
-                queue.enque(Double.toString(i));
-            }
-            else
-            {
-                queue.deque();
-            }
-
-        }
-        System.out.println(queue + "size " + queue.size() + " capacity " + queue.capacity());
-    }
-
     protected Item[] array;
 
     private int first;
@@ -200,5 +148,58 @@ public class QueueArray<Item> implements Queue<Item>
 
         return ret + " ]";
     }
+    
+    /**
+     * @param args
+     */
+    public static void main(String[] args)
+    {
+        // TODO Auto-generated method stub
+        QueueArray<String> queue = new QueueArray<String>();
+
+        for (int i = 0; i < 4; i++)
+        {
+            queue.enque(Double.toString(Math.random()));
+        }
+
+        System.out.println(queue);
+
+        for (int i = 0; i < 4; i++)
+        {
+            queue.deque();
+        }
+        System.out.println(queue);
+
+        for (int i = 0; i < 4; i++)
+        {
+            queue.enque(Integer.toString(i));
+        }
+
+        System.out.println(queue);
+        queue.enque(Integer.toString(10));
+        System.out.println(queue);
+
+        for (int i = 0; i < 1000; i++)
+        {
+            queue.enque(Double.toString(i));
+
+        }
+
+        for (int i = 0; i < 1000; i++)
+        {
+            if (i % 125 == 0)
+            {
+                queue.enque(Double.toString(i));
+            }
+            else
+            {
+                queue.deque();
+            }
+
+        }
+        System.out.println(queue + "size " + queue.size() + " capacity " + queue.capacity());
+    }
+    
+    
 
 }

@@ -1,10 +1,5 @@
 
 package practise;
-
-/**
- * @author ViegasJ
- *
- */
 public class QueueArray<Item> implements Queue<Item>
 {
     protected Item[] array;

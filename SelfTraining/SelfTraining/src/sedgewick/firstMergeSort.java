@@ -1,27 +1,31 @@
 package sedgewick;
 
 public class firstMergeSort extends Sorter {
+	static Comparable [] aux ;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		Integer [] a = { 1 ,4 , 88, 90 ,3, 4, 77, 89};
 		show(a);
-		
-		MergeSort(a ,0 , (a.length)/2 , a.length-1);
+		aux = a.clone();
+		merge(a ,0 , (a.length)/2 , a.length-1);
 		show(a);
 		
 
 	}
 
-	private static void MergeSort(@SuppressWarnings("rawtypes") Comparable[] a, int low, int mid, int high) {
+	protected static void merge(@SuppressWarnings("rawtypes") Comparable[] a, int low, int mid, int high) {
 		// TODO Auto-generated method stub
 		
 		@SuppressWarnings("rawtypes")
-		Comparable [] aux = a.clone();
+		
 		
 		int i = low;
-		int j = mid;
+		int j = mid+1;
+		
+		for(int l =low; l <= high ;l++)
+			aux[l]=a[l];
 		
 		for(int k = low ; k <= high ; k++){
 			

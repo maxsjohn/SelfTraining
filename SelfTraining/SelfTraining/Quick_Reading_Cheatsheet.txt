@@ -1,0 +1,212 @@
+╔══════════════════════════════════════════════════════════════════╗
+║  📚 TECHNICAL ARTICLE SPEED READING CHEAT SHEET 📚               ║
+║  Goal: 40 minutes per article (not 2 hours!)                    ║
+╚══════════════════════════════════════════════════════════════════╝
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ⏰ THE 3-PASS METHOD (40 min total)                            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┌─────────────────────────────────────────────────────────────────┐
+│ PASS 1: SKIM (5 minutes) ⏱️                                     │
+├─────────────────────────────────────────────────────────────────┤
+│ ✓ Title + first paragraph                                      │
+│ ✓ All section headers                                          │
+│ ✓ First sentence of each section                               │
+│ ✓ All diagrams/images                                          │
+│ ✓ Conclusion                                                    │
+│ ✓ Bolded/highlighted text                                      │
+│                                                                 │
+│ GOAL: Answer "What problem? What solution?"                     │
+│ SKIP: Everything else!                                          │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│ PASS 2: FOCUSED READ (20 minutes) ⏱️                            │
+├─────────────────────────────────────────────────────────────────┤
+│ ONLY read these sections:                                       │
+│ ✓ The WHY (problem statement)                                  │
+│ ✓ The ARCHITECTURE (high-level design)                         │
+│ ✓ The TRADE-OFFS (what they sacrificed)                        │
+│ ✓ The NUMBERS (scale metrics)                                  │
+│ ✓ The TECH CHOICES (tools and why)                             │
+│                                                                 │
+│ Strategy: Read first 2-3 sentences of each paragraph           │
+│          If relevant → finish paragraph                         │
+│          If not → skip to next section                          │
+│                                                                 │
+│ GOAL: Extract 3-5 key patterns                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────┐
+│ PASS 3: SYNTHESIZE (10 minutes) ⏱️                              │
+├─────────────────────────────────────────────────────────────────┤
+│ Create your interview cheat sheet:                             │
+│ • One-sentence summary                                         │
+│ • 3 key decisions + trade-offs                                 │
+│ • 3 interview talking points                                   │
+│ • Simple architecture diagram                                  │
+│ • Scale numbers to remember                                    │
+│                                                                 │
+│ GOAL: Can you explain this in 2 minutes?                       │
+└─────────────────────────────────────────────────────────────────┘
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ❌ WHAT TO SKIP (Skip = Speed!)                                ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+❌ Detailed code examples
+❌ Company-specific tool names
+❌ Historical background beyond 1 paragraph
+❌ Marketing content
+❌ Step-by-step tutorials
+❌ Long lists beyond first 3 items
+❌ Implementation details you won't use
+❌ Metrics beyond headline numbers
+
+RULE: If it won't come up in an interview → SKIP IT!
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ⚠️  RED FLAGS: You're Reading Too Slow                         ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+🚩 Same paragraph for 10+ minutes → SKIP AHEAD
+🚩 Re-reading sentences → MOVE ON
+🚩 Googling every term → JUST CONTEXT CLUES
+🚩 Taking notes on everything → 3-5 POINTS ONLY
+🚩 Still in intro after 30 min → JUMP TO MIDDLE
+🚩 Reading code line-by-line → GET THE CONCEPT
+
+When you see these → Stop and jump forward!
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🎯 THE "INTERVIEW LENS" FILTER                                 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+Before reading ANY section, ask:
+"Will this come up in a system design interview?"
+
+✅ YES → Read it:
+   • Architecture patterns
+   • Scaling strategies  
+   • Trade-offs
+   • Common problems/solutions
+
+❌ NO → Skip it:
+   • Company-specific tools
+   • Detailed implementation
+   • Internal processes
+   • Historical context
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💡 SPEED READING TECHNIQUES                                    ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+1. F-PATTERN READING
+   First para      ←←←←←←← Read fully
+   First line      ←←←     Skim
+   First line      ←←←     Skim
+   Interesting?    ←←←←←←← Read if relevant
+   First line      ←←←     Skim
+
+2. DIAGRAM-FIRST APPROACH
+   • Look at ALL diagrams before text
+   • Understand system from diagrams
+   • Read text only to fill gaps
+
+3. SEEK & DESTROY METHOD
+   Look for trigger words:
+   • "Challenge", "Problem" → READ
+   • "Solution", "Architecture" → READ
+   • "Because", "Since" → READ THE REASONING
+   • Implementation details → SKIP
+
+4. TALK OUT LOUD
+   • Read paragraph
+   • Cover text
+   • Explain in your own words
+   • Can't explain? Re-read.
+   • Can explain? Move on.
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ✅ WHAT YOU NEED FOR INTERVIEWS                                ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+✅ Main architectural pattern
+✅ Why they chose this approach
+✅ Key trade-offs
+✅ Scale numbers (users, QPS, data size)
+✅ 2-3 talking points
+
+DON'T NEED:
+❌ Every implementation detail
+❌ Perfect understanding
+❌ Ability to replicate their system
+❌ All the edge cases
+
+INTERVIEW TIP: You'll say:
+"I read about how [Company] handled [Problem] at scale.
+They used [Pattern] because [Reason]. The key trade-off
+was [Cost]. In my design, I'd consider..."
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 📋 QUICK EXTRACTION TEMPLATE                                   ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+For each article, capture ONLY this:
+
+[ARTICLE NAME]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Problem: _______________________________________
+
+Solution: ______________________________________
+
+Key Pattern #1: ________________________________
+Why: ___________________________________________
+Trade-off: _____________________________________
+
+Key Pattern #2: ________________________________
+Why: ___________________________________________  
+Trade-off: _____________________________________
+
+Key Pattern #3: ________________________________
+Why: ___________________________________________
+Trade-off: _____________________________________
+
+Tech Stack: ____________________________________
+
+Scale: _________________________________________
+
+Interview Use: _________________________________
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+That's it! Nothing more needed.
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🚀 TODAY'S READING PLAN                                        ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+□ Pick ONE Tier 1 article
+□ Set timer for 5 min → SKIM
+□ Set timer for 20 min → READ key sections only
+□ Set timer for 10 min → CREATE cheat sheet
+□ Test: Can I explain this in 2 minutes?
+□ Move to next article tomorrow
+
+TOTAL: 35-40 minutes per article
+NOT: 2+ hours!
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💪 REMEMBER                                                     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+Good enough > Perfect
+Speed > Depth
+Patterns > Details
+Action > Perfection
+
+WHEN TIMER RINGS → STOP & MOVE ON!
+
+═══════════════════════════════════════════════════════════════════
+Print this and keep it next to you while reading! 📋
+═══════════════════════════════════════════════════════════════════

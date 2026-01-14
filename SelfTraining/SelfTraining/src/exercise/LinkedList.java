@@ -87,6 +87,25 @@ public class LinkedList<Item> implements Iterable<Item> {
 		newNode.next = prevNode.next;
 		prevNode.next = newNode;			
 	}
+	
+	
+	public  Node reverse()
+	{
+		Node prev = null;
+		Node cur = first ;
+		while(cur != null)
+		{
+			Node temp = cur.next;
+			cur.next = prev;
+			prev = cur;
+			cur = temp;
+			
+		}
+		first = prev ;		
+		return first;
+		
+	}
+	
 
 	public Item deleteAtIndex(int index ) 
 	{
@@ -158,6 +177,9 @@ public class LinkedList<Item> implements Iterable<Item> {
 		System.out.println("Deted Item is " + q.deleteAtIndex(4));
 		
 		printColection(q);		
+		q.reverse();
+		printColection(q);			
+		
 
 	}
 	
@@ -167,9 +189,10 @@ public class LinkedList<Item> implements Iterable<Item> {
 		for(String str : q)
 		{	
 			
-			System.out.println("Index "+(i++) +" = " +str +" ");
+			System.out.print("["+(i++) +"] = " +str +" ");
 			
 		}
+		System.out.println();
 	}
 	
 }
